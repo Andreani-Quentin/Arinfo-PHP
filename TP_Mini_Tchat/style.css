@@ -1,0 +1,78 @@
+body 
+{
+	background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('background.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+h1
+{
+	padding-top: 50px;
+	color: white;
+}
+
+.pseudo
+{
+	background-color: rgba(0, 0, 0, 0.7);
+	border-color: rgba(255, 255, 255, 0.5);
+	border-radius: 100px;
+	border: 0px;
+	padding: 10px;
+	margin-bottom: 50px;
+	color: white;
+	font-size: 14px;
+
+}
+
+.pseudo:active
+{
+	background-color: rgba(0, 0, 0, 1);
+	color: white;
+}
+textarea
+{
+	background-color: rgba(0, 0, 0, 0.7);
+	border-color: rgba(255, 255, 255, 0.5);
+	border: 0px;
+	color: white;
+	width: 100%;
+	margin-bottom: 30px !important;
+	border-radius: 30px;
+	padding: 20px;
+}
+textarea:active
+{
+	border: 0px;
+}
+
+.reponse
+{
+	color: white;
+}
+
+.btn_perso
+{
+	border: 0px;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+	padding: 10px 18px;
+	margin-bottom: 10px;
+}
+.rep_box
+{
+	background-color: rgba(0, 0, 0, 0.7) !important;
+	padding: 50px;
+	margin-bottom: 40px;
+}
+
+.rep_pseudo
+{
+	width: 100px;
+	color: white;
+}
+
+.rep
+{
+	color: white;
+	margin-left: 20px;
+}
